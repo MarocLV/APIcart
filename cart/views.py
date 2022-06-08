@@ -4,6 +4,6 @@ from rest_framework import status
 
 
 @api_view(['GET'])
-def country_view(request):
-    mensaje = {'msg' : 'estás en la API de country'}
+def mensaje_carrito(request):
+    mensaje = {'msg' : 'estás en la API de carrito'}
     return Response(mensaje, status=status.HTTP_200_OK)
